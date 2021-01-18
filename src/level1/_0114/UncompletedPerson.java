@@ -1,0 +1,25 @@
+package level1._0114;
+
+//https://programmers.co.kr/learn/courses/30/lessons/42576
+
+import java.util.Arrays;
+
+public class UncompletedPerson {
+
+    public static void main(String[] args) {
+        System.out.println(solution(new String[]{"leo", "kiki", "eden"}, new String[]{"eden", "kiki"}));
+    }
+    public static String solution(String[] participant, String[] completion) {
+
+        Arrays.sort(participant);
+        Arrays.sort(completion);
+
+        for (int i=0;i<completion.length;i++){
+            if (!completion[i].equals(participant[i])){
+                return participant[i];
+            }
+        }
+        return participant[participant.length-1];
+
+    }
+}
