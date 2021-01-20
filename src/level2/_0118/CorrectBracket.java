@@ -1,4 +1,5 @@
 package level2._0118;
+
 //https://programmers.co.kr/learn/courses/30/lessons/12909
 public class CorrectBracket {
     boolean solution(String s) {

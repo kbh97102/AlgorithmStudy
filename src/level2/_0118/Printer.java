@@ -1,8 +1,6 @@
 package level2._0118;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.stream.Collectors;
 
 //https://programmers.co.kr/learn/courses/30/lessons/42587
 class Priority{
